@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container loan p-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img class="w-100" src="Assets/loan application.avif" alt="">
+            </div>
+            <div class="col-12 col-md-6 APinfo">
+                <div class="container">
+                    <h3>Bank Details</h3>
+                    <form action="#" onsubmit="return Bank()">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Account Holder Name</label>
+                                <input type="text" class="form-control" id="name" value=""/>
+                                <span class="text-danger" id="emptyname"></span>
+                            </div>
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">Bank Name</label>
+                                    <input type="text" class="form-control" id="bankname" value=""/>
+                                    <span class="text-danger" id="emptybankname"></span>
+                                </div>
+                        </div> <br>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Account Number</label>
+                                <input type="text" class="form-control" id="account_number" value=""/>
+                                <span class="text-danger" id="emptyaccount_number"></span>
+                            </div>
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">IFSC Code</label>
+                                    <input type="text" class="form-control" id="IFSC" value=""/>
+                                    <span class="text-danger" id="emptyIFSC"></span>
+                                </div>
+                        </div> <br>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">State</label>
+                                <input type="text" class="form-control" id="stateid" value=""/>
+                                <span class="text-danger" id="emptystate"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">City</label>
+                                <input type="" class="form-control" id="cityid" value=""/>
+                                <span class="text-danger" id="emptycity"></span>
+                            </div>
+                        </div> <br>
+                        <div class="justify-content-center"><h5>Type of Account</h5>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="account"
+                                    id=""
+                                    value="{3:option1}"
+                                />
+                                <label class="form-check-label" for="">Savings</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="account"
+                                    id=""
+                                    value="option2"
+                                />
+                                <label class="form-check-label" for="">Current</label>
+                            </div>
+                            </div>
+                            <br> <br>
+                            <input class="btn bg-success px-5 text-white" type="submit">
+                    </form> 
+                </div>  <br>
+            </section>
+            </div>
+        </div>
+    </section>
+    <script src="Loan.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

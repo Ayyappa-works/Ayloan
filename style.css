@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    h4,h1,h2,h3,h5{
+        font-weight: 600!important;
+    }
+    button{
+        color: white!important;
+    }
+    text-decoration: none!important;
+    h4{
+        text-align: justify!important;
+    }
+    p{
+        text-align: justify!important;
+    }
+}
+.navbar{
+    top: 0;
+    width: 100%;
+    position: fixed!important;
+    z-index:1;
+    background-color:  rgb(96, 207, 150);
+}
+.navbar-nav a:hover{
+    background-color:  rgb(96, 207, 150)!important;
+}
+.heropage button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navbar img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.Services .card{
+    padding: 5px;
+    height: 235px!important;
+    text-align: justify;
+}
+.card:hover{
+    background-color: rgb(96, 207, 150);
+    color:white;
+}
+.About{
+    padding: 10px;
+    text-align: justify;
+}
+.APinfo{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card a{
+    text-decoration: none;
+    color:black;
+}
+.Choose{
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.Success{
+    width: 30vh;
+    height: 30vh;
+    background-color: green;
+    border-radius: 50%;
+    margin: 10% auto;
+}
+.loan img{
+    margin-top: 20px;
+}
+.footer i{
+    margin-right: 15px;
+}
+.footer{
+    background-color: rgb(96, 207, 150);
+}
+.footer a{
+    color: black;
+}
+@media (max-width: 575px){
+    .heropage p{
+        text-align: justify;
+    }
+    .Services .card{
+        height: fit-content!important;
+        margin-bottom: 20px;
+    }
+    .heropage{
+        margin-top: 30px;
+    }
+    .heropage_s{
+        margin-top: 20px;
+    }
+    .About img{
+        display: none;
+    }
+    .Choose .row{
+        padding: 20px!important;
+    }
+}
+@media screen and (min-width:575px) and (max-width:999px){
+    .heropage{
+        margin-top: 50px;
+    }
+    .Services .card{
+        height: fit-content!important;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:775px){
+    .Services .card{
+        height: 420px!important;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:1028px) and (max-width:1115px){
+    .Services .card{
+        height: 280px!important;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1028px){
+    .Services .card{
+        height:300px!important;
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:1000px){
+    .navbar{
+        height: 50px;
+    }
+    .heropage_s{
+        margin-top: 30px;
+    }
+    .heropage{
+        margin-top: 30px;
+        height: 100vh;
+    }
+}
+@media(min-width:700px){
+    .Choose .row{
+        padding:30px;
+    }
+}
+@media screen and (min-width:980px) and (max-width:999px){
+    .Services .card{
+        height: 305px!important;
+    }
+    .heropage_s{
+        margin-top: 20px;
+    }
+    .loan img{
+        padding-top: 50px;
+    }
+}
+@media screen and (min-width:1180px) and (max-width:1204px){
+    .Services .card{
+        height: 254px!important;
+    }
+}
+@media(min-width:1250px){
+    .about_content{
+        padding: 80px;
+    }
+}

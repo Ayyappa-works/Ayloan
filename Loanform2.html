@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container loan p-5">
+        <div class="row">
+            <div class="col-12  col-md-6">
+                <img class="w-100" src="Assets/loan application.avif" alt="">
+            </div>
+            <div class="col-12 col-md-6 APinfo">
+                <div class="container">
+                    <h3>Loan Details</h3>
+                    <form action="Loanform3.html" onsubmit="return Loan1()">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">PAN number</label>
+                                <input type="text" class="form-control" id="pancard" value=""/>
+                                <span class="text-danger" id="emptypancard"></span>
+                            </div>
+                            <div class="col-md-6">
+                            </div>
+                        </div> <br>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Monthly Income</label>
+                                <input type="text" class="form-control" id="salary" value=""/>
+                                <span class="text-danger" id="emptysalary"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Occupation</label>
+                                <input type="" class="form-control" id="Occupation" value=""/>
+                                <span class="text-danger" id="emptyOccupation"></span>
+                            </div>
+                        </div> <br>
+                        <div class="justify-content-center"><h5>Type of loan</h5>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="loan"
+                                    id=""
+                                    value="{3:option1}"
+                                />
+                                <label class="form-check-label" for="">Education loan</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="loan"
+                                    id=""
+                                    value="option2"
+                                />
+                                <label class="form-check-label" for="">Home loan</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="loan"
+                                    id=""
+                                    value="option3"
+                                />
+                                <label class="form-check-label" for="">Personal loan</label>
+                            </div>
+                            </div> <br>
+                        <div class="justify-content-center"><h5>Job type</h5>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="salary"
+                                    id=""
+                                    value="{3:option1}"
+                                />
+                                <label class="form-check-label" for="">Salaried</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="salary"
+                                    id=""
+                                    value="option2"
+                                />
+                                <label class="form-check-label" for="">Self Employed</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="salary"
+                                    id=""
+                                    value="option3"
+                                />
+                                <label class="form-check-label" for="">Others</label>
+                            </div>
+                            </div>
+                            <br>
+                            <input class="btn bg-success px-5 text-white" type="submit">
+                    </form>
+                    
+                </div>  <br>
+            </section>
+            </div>
+        </div>
+    </section>
+    <script src="Loan.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

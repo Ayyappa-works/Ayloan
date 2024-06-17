@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container loan p-5">
+        <a href="index.html"><button class="btn btn-success mx-2">back to home</button></a>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img class="w-100" src="Assets/loan application.avif" alt="">
+            </div>
+            <div class="col-12 col-md-6 APinfo">
+                <div class="container">
+                    <h3>Application information</h3>
+                    <form action="Loanform2.html" onsubmit="return Loan()">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Full name</label>
+                                <input type="text" class="form-control" id="Fullname" name="Fullname" value="" />
+                                <p class="text-danger" id="emptyname"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Email Id</label>
+                                <input type="text" class="form-control" id="emailid" value=""/>
+                                <span class="text-danger" id="emptyemail"></span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="Phonenumber" value=""/>
+                                <span class="text-danger" id="emptynumber"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Date Of Birth</label>
+                                <input type="date" class="form-control" id="" required/>
+                            </div>
+                        </div> <br>
+                        <div class="justify-content-center"><h5>Gender</h5>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="gender"
+                                    id=""
+                                    value=""
+                                />
+                                <label class="form-check-label" for="">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="gender"
+                                    id=""
+                                    value="option2"
+                                />
+                                <label class="form-check-label" for="">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="gender"
+                                    id=""
+                                    value="option3"
+                                />
+                                <label class="form-check-label" for="">Others</label>
+                            </div>
+                            </div>
+                    </div> <br>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Address*</label>
+                            <input type="text" class="form-control" id="addressid" value="" />
+                            <span class="text-danger" id="emptyaddress"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Pincode*</label>
+                            <input type="text" class="form-control" id="pincodeid" value=""/>
+                            <span type="Number" class="text-danger" id="emptypincode"></span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">City*</label>
+                            <input type="text" class="form-control" id="cityid" value=""/>
+                            <span type="text" class="text-danger" id="emptycity"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">State*</label>
+                            <input type="text" class="form-control" id="stateid" value=""/>
+                            <span type="text" class="text-danger" id="emptystate"></span>
+                        </div>
+                    </div> <br>
+                    <input class="btn bg-success px-5 text-white" type="submit">
+                    </form>
+            </section>
+            </div>
+        </div>
+    </section>
+    <script src="Loan.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
